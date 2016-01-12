@@ -5,6 +5,6 @@ define(['angular', './services/helper', './services/playRoutes', './filters', '.
     function(angular) {
   'use strict';
 
-  return angular.module('common', ['common.helper', 'common.playRoutes', 'common.filters',
+  return angular.module('yourprefix.common', ['common.helper', 'common.playRoutes', 'common.filters',
     'common.directives.example']);
 });
